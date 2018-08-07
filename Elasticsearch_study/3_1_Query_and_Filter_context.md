@@ -1,13 +1,13 @@
 # Query_and_Filter_context
 : 쿼리문의 동작은 query context에서 사용되는지 filter context에서 사용되는지에 따라 달라진다.
 
-### ==Query context==
+### Query context
 ##### : "How well does this document match this query clause?"
 
 * Query context에서 쿼리문은 이 문서가 쿼리문과 얼마나 잘 일치하는지에 대한 여부와
 * 다른 문서에 비해 match된 문서가 얼마나 잘 일치하는지를 나타내는 점수도 계산한다.
 
-### ==Filter context==
+### Filter context
 ##### : "Does this document match this query clause?"
 
 * Filter context에서 쿼리문은 쿼리문과 문서가 일치하는가? YES/NO 로만 답하여 따로 점수 계산을 하지 않는다.
